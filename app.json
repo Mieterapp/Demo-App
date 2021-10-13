@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Demo-App",
+    "slug": "demo-app",
+    "version": "1.0.0",
+    "scheme": "demoapp",
+    "privacy": "unlisted",
+    "orientation": "portrait",
+    "backgroundColor": "#ffffff",
+    "icon": "./assets/white.png",
+    "splash": {
+      "image": "./assets/white.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "updates": {
+      "enabled": false,
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "de.demo-app.app",
+      "infoPlist": {
+      },
+      "buildNumber": "150000000",
+      "associatedDomains": [
+        "applinks:app.demo-app.de"
+      ]
+    },
+    "android": {
+      "package": "com.demoapp.app",
+      "versionCode": 150000000,
+      "permissions": ["NOTIFICATIONS"],
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/white.png",
+        "backgroundColor": "#ffffff"
+      },
+      "intentFilters":  [{
+        "autoVerify": true,
+        "action": "VIEW",
+        "data": {
+          "scheme": "https",
+          "host": "app.demo-app.de"
+        },
+        "category": ["BROWSABLE", "DEFAULT"]
+      }]
+    },
+    "androidNavigationBar": {
+      "backgroundColor": "#ffffff",
+      "barStyle": "light-content"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "notification": {
+      "iosDisplayInForeground": true,
+      "icon": "./assets/white.png",
+      "color": "#005ca9",
+      "androidMode": "default"
+    },
+    "hooks": {
+      "postPublish": [
+      ]
+    }
+  }
+}

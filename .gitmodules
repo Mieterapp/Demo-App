@@ -1,0 +1,6 @@
+[submodule "dit-core"]
+  path = dit/core
+  url = https://gitlab.com/lovecoding-it/dit-core.git
+[submodule "dit/core"]
+	path = dit/core
+	url = https://gitlab.com/lovecoding-it/dit-core.git

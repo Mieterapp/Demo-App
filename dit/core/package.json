@@ -1,0 +1,17 @@
+{
+  "name": "@lovecoding-it/dit-core",
+  "version": "0.0.5",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.4.0",
+    "axios": "^0.20.0",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5"
+  }
+}

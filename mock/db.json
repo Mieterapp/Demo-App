@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$f4Augq.n7KxV667H8q.u7.icADByI4tDvjGlcfY79II00KONuynT2",
+      "id": 1
+    },
+    {
+      "email": "florian.stopienski@gmail.com",
+      "password": "$2a$10$VnVuR9Aj0vwEpzf7ePAr/.ic00QwjrylALKVaotWeheG8Teem6Wda",
+      "fistName": "Florian",
+      "lastName": "Stopienski",
+      "id": 2
+    }
+  ]
+}
