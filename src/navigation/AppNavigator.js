@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Text, View, Button, Image } from 'react-native';
+import { Text, View, StyleSheet, Button, Image } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
@@ -136,7 +136,7 @@ function MainStackNavigator() {
                                               headerTitle: '',
                                               headerLeft: () => (
                                                   <View>
-                                                      <Image source={require('../../assets/white.png')} style={{width: 90,marginLeft: 20,  resizeMode: 'contain',}} />
+                                                      <Image source={require('../../assets/white.png')} style={{width: 90,marginLeft: 20,  resizeMode: 'contain', }} />
                                                   </View>
 
                                               ),

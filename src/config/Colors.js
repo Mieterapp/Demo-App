@@ -7,14 +7,14 @@ const demoColor = "#AA9867";
 
 export const GWGColors = {
     HeadlineTextColor: '#6e6e6e',
-    HeadlineBorderColor: demoColor,
+    HeadlineBorderColor: gwgBlue,
     HEADLINEBORDERCOLORSECONDARY: lightGreen,
-    InputBorderColor: demoColor,
+    InputBorderColor: gwgBlue,
 
-    BUTTONCOLOR: demoColor,
+    BUTTONCOLOR: gwgBlue,
     BUTTONTEXTCOLOR: '#ffffff',
 
-    GWGBLUE: demoColor,
+    GWGBLUE: gwgBlue,
     WHITE: "#ffffffff",
     TEXT: lightGrey,
     LIGHTERGREY: '#d0cfcf'

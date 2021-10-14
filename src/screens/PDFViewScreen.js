@@ -37,7 +37,7 @@ export default function PDFViewScreen({route, navigation}) {
     const { source, doc } = route.params;
     const {documents, documentsLoading, documentsHasErrors} = useSelector(documentsSelector)
     const [token, setToken] = useState(null);
-    //const [url, setUrl] = useState("https://dwapp-0064-prod.datasec.de" + source);
+    //const [url, setUrl] = useState("https://dwapp-0064-test.datasec.de" + source);
     const [url, setUrl] = useState("https://dwapp-demo.datasec.de" + source);
     const [loading, setLoading] = useState(true);
 

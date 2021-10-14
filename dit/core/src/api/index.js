@@ -11,7 +11,7 @@ const apiPrefix ="/api/v1";
 
 const api = axios.create({
     baseURL: 'https://dwapp-demo.datasec.de'+apiPrefix,
-    //baseURL: 'https://dwapp-0064-prod.datasec.de'+apiPrefix,
+    //baseURL: 'https://dwapp-0064-test.datasec.de'+apiPrefix,
     //baseUrl: 'http://10.23.91.61'+apiPrefix,
     headers: {
         'Content-Type': 'application/json'

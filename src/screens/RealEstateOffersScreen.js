@@ -20,7 +20,7 @@ export default function RealsEstateOffersScreen({navigation}) {
 
     return (
         <WebView  renderLoading={() => {return (<View style={{backgroundColor:'transparent', position: 'absolute', top: 10, width: screenWidth}}><ActivityIndicator color={GWGColors.GWGBLUE} size='large' /></View>)}}
-                  startInLoadingState={true}   source={{uri: "https://www.google.de"}}/>
+                  startInLoadingState={true}   source={{uri: "https://datasec.de"}}/>
 
 
     );

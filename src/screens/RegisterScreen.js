@@ -353,7 +353,7 @@ function RegisterScreen() {
                                      * S - accept alphanumeric.
                                      * * - accept all, EXCEPT white space.
                                      */
-                                    mask: '99999.9999.99'
+                                    mask: '9999.99999.99'
                                 }}
                                 ref={contractRef}
                                 autoCapitalize = 'none'
@@ -362,7 +362,7 @@ function RegisterScreen() {
                                 keyboardType={"numeric"}
                                 autoCorrect={false}
 
-                                placeholder={'z.B. 99999.0001.01'}
+                                placeholder={'z.B. 9999.00001.01'}
                                 value={contract}
                                 onChangeText={(value)=> {
                                     if(contract != ''){

@@ -1,6 +1,7 @@
 import React from 'react';
 import {StyleSheet, Text, TouchableOpacity, View, Image} from "react-native";
 //import {useTheme} from "../themes/ThemeProvider";
+import GWGColors from "../config/Colors";
 
 export default function Logo(props) {
     //const {theme} = useTheme();
@@ -11,7 +12,7 @@ export default function Logo(props) {
     return (
         <>
             <View style={[styles.logoWrapper, {width: width, height: height, borderRadius: radius}]}>
-                <Image source={require('../../assets/white.png')} style={{width: 120,marginLeft: 10,  resizeMode: 'contain',}} />
+                <Image source={require('../../assets/white.png')} style={{width: 120,marginLeft: 10,  resizeMode: 'contain', }} />
             </View>
         </>
     );

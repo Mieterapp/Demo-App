@@ -16,7 +16,7 @@ export default function DefectScreen({navigation}) {
         dispatch(logout());
     }
 
-    const damagePortalUrl = "https://www.google.de/";
+    const damagePortalUrl = "https://datasec.de/";
 
     return (
         <View style={{margin: 0, flex: 1, backgroundColor: '#FFF', justifyContent: 'center'}}>
