@@ -12,7 +12,7 @@ export default function Logo(props) {
     return (
         <>
             <View style={[styles.logoWrapper, {width: width, height: height, borderRadius: radius}]}>
-                <Image source={require('../../assets/white.png')} style={{width: 120,marginLeft: 10,  resizeMode: 'contain', }} />
+                <Image source={require('../../assets/LogoDATASECImmobilienAG.png')} style={{width: 120,marginLeft: 10,  resizeMode: 'contain', }} />
             </View>
         </>
     );

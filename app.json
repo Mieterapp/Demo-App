@@ -7,9 +7,9 @@
     "privacy": "unlisted",
     "orientation": "portrait",
     "backgroundColor": "#ffffff",
-    "icon": "./assets/white.png",
+    "icon": "./assets/LogoDATASECImmobilienAG.png",
     "splash": {
-      "image": "./assets/white.png",
+      "image": "./assets/LogoDATASECImmobilienAG.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -40,7 +40,7 @@
       "permissions": ["NOTIFICATIONS"],
       "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/white.png",
+        "foregroundImage": "./assets/LogoDATASECImmobilienAG.png",
         "backgroundColor": "#ffffff"
       },
       "intentFilters":  [{
@@ -62,7 +62,7 @@
     },
     "notification": {
       "iosDisplayInForeground": true,
-      "icon": "./assets/white.png",
+      "icon": "./assets/LogoDATASECImmobilienAG.png",
       "color": "#005ca9",
       "androidMode": "default"
     },

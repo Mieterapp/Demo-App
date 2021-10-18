@@ -136,7 +136,7 @@ function MainStackNavigator() {
                                               headerTitle: '',
                                               headerLeft: () => (
                                                   <View>
-                                                      <Image source={require('../../assets/white.png')} style={{width: 90,marginLeft: 20,  resizeMode: 'contain', }} />
+                                                      <Image source={require('../../assets/LogoDATASECImmobilienAG.png')} style={{width: 90,marginLeft: 20,  resizeMode: 'contain', }} />
                                                   </View>
 
                                               ),
@@ -204,7 +204,7 @@ function MainStackNavigator() {
                             headerHeight: 100,
                             headerTitle: () => (
                                 <View>
-                                    <Image source={require('../../assets/white.png')} style={{width: 90,marginLeft: 10,  resizeMode: 'contain',}} />
+                                    <Image source={require('../../assets/LogoDATASECImmobilienAG.png')} style={{width: 90,marginLeft: 10,  resizeMode: 'contain',}} />
                                 </View>
 
                             ),
