@@ -7,7 +7,7 @@
     "privacy": "unlisted",
     "orientation": "portrait",
     "backgroundColor": "#ffffff",
-    "icon": "./assets/white.png",
+    "icon": "./assets/DemoLogoIcon.png",
     "splash": {
       "image": "./assets/LogoDATASECImmobilienAG.png",
       "resizeMode": "contain",
@@ -29,7 +29,7 @@
       "bundleIdentifier": "de.demoapp-datasec.test",
       "infoPlist": {
       },
-      "buildNumber": "150000003"
+      "buildNumber": "150000004"
     },
     "android": {
       "package": "com.demoapp.app",
