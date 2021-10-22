@@ -1,13 +1,13 @@
 {
   "expo": {
     "name": "Demo-App",
-    "slug": "demo-app",
+    "slug": "Demo-App",
     "version": "1.0.0",
     "scheme": "demoapp",
     "privacy": "unlisted",
     "orientation": "portrait",
     "backgroundColor": "#ffffff",
-    "icon": "./assets/LogoDATASECImmobilienAG.png",
+    "icon": "./assets/white.png",
     "splash": {
       "image": "./assets/LogoDATASECImmobilienAG.png",
       "resizeMode": "contain",
@@ -26,13 +26,10 @@
     ],
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "de.demo-app.app",
+      "bundleIdentifier": "de.demoapp-datasec.test",
       "infoPlist": {
       },
-      "buildNumber": "150000000",
-      "associatedDomains": [
-        "applinks:app.demo-app.de"
-      ]
+      "buildNumber": "150000003"
     },
     "android": {
       "package": "com.demoapp.app",
@@ -48,7 +45,7 @@
         "action": "VIEW",
         "data": {
           "scheme": "https",
-          "host": "app.demo-app.de"
+          "host": "de.demoapp-datasec.test"
         },
         "category": ["BROWSABLE", "DEFAULT"]
       }]
