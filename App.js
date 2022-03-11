@@ -99,7 +99,8 @@ export default function App() {
 // evaluate every incoming URL
 
     const linking = {
-        prefixes: ['https://dwapp-demo.datasec.de', 'demoapp://'],
+        prefixes: ['http://dit-demo-app.dev.resident.immomio.com', 'demoapp://'],
+        //prefixes: ['https://dwapp-demo.datasec.de', 'demoapp://'],
         config: {
             screens: {
                 VerifyAccount: 'verify/:token',

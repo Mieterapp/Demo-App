@@ -29,7 +29,7 @@
       "bundleIdentifier": "de.demoapp-datasec.test",
       "infoPlist": {
       },
-      "buildNumber": "150000004"
+      "buildNumber": "150000014"
     },
     "android": {
       "package": "com.demoapp.app",

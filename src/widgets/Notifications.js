@@ -236,7 +236,7 @@ export default function Notification(props) {
 
 
 
-    useEffect(() => {
+    /*useEffect(() => {
         //console.log('add')
         //alert('add')
         Notifications.addListener(_handleNotification);
@@ -271,7 +271,7 @@ export default function Notification(props) {
         }
 
 
-    },[device])
+    },[device])*/
 
     return (
         <></>
